@@ -1,0 +1,28 @@
+{
+  "name": "record-mangement-build",
+  "version": "1.0.0",
+  "description": "Book Record managemnt ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwitha2004/Record-Management-System.git#record-management-system"
+  },
+  "author": "ashwitha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwitha2004/Record-Management-System/issues"
+  },
+  "homepage": "https://github.com/ashwitha2004/Record-Management-System/tree/record-management-system#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.4.0"
+  }
+}
